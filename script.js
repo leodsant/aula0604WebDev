@@ -112,12 +112,20 @@
 //     alert("O nome inserido não é ana");
 // }
 
-let idade = parseInt(prompt("Inserir idade"));
+// let idade = parseInt(prompt("Inserir idade"));
 
-if (idade < 18) {
-    alert("É jovem");
-} else if ((idade >= 18) && (idade < 60)) {
-    alert("É adulto");
+// if (idade < 18) {
+//     alert("É jovem");
+// } else if ((idade >= 18) && (idade < 60)) {
+//     alert("É adulto");
+// } else {
+//     alert("É idoso");
+// }
+
+let nome = prompt("Inserir nome");
+
+if ((nome != "") && ((nome == "EMA") || (nome == "ema") || (nome == "Ema"))) {
+    alert("Olá, Ema");
 } else {
-    alert("É idoso");
+    alert("Erro: Inserir nome válido");
 }
